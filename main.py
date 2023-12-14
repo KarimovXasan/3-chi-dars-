@@ -1,17 +1,28 @@
-a = 266
-b = int(input("2 dan 8 gacha kiriting"))
-if a % b:
-    print("notogri")
-else:
-    print("togri")
+number = [[1,2,3,],[8,9,10,11,12]]
 
-a = int(input("telefonlar soni:"))
-b = int(input("odam soni"))
-print(a - b)
+for x in number:
+    for y in x:
+        print(y)
 
 
+car = {
+    'Damas': {
+        "made_in": "Uzbekistan",
+        "prise":"10000$",
+        "color":"white-black"
+    },
+
+    'BMW':{
+        "made_in":"Germaniya",
+        "price":"10000$",
+        "color":"blue-yellow-red"
+    }
+}
+
+for key, value in car.items():
+    for _,x in value
 
 
-
-
+    .items()
+      print(x)
 
